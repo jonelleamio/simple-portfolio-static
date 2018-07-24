@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jonelle AMIO</title>
+    <link rel="icon" href="assets/img/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style1.css" />    <script src="assets/js/script.js"></script>
+</head>
+
+<body class="contact parallax">
+    <header>
+        <nav class="navbar">
+            <section class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-target="#main-nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html" target="_self" class="navbar-brand">
+                            <img src="assets/img/logo.png" alt="Mon LOGO" width="720" height="349" />
+                        </a>
+                    </div>
+                    <div class="navbar-collapse col-8 pull-right" id="main-nav">
+                        <ul>
+                            <li>
+                                <a href="index.html" title="À Propos" target="_self">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                    <span>À Propos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parcours.html" title="Parcours" target="_self">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                    <span>Parcours</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="competences.html" title="Competences" target="_self">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                    <span>Competences</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="loisirs.html" title="Centres d’intérêts" target="_self">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                    <span>Centres d’intérêts</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="realisations.html" title="Galerie d’images" target="_self">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                    <span>Galerie d’images</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="contact.html" title="Contact" target="_self">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <main class="container">
+        <form id="contact" action="" method="post">
+            <h1>FORMULAIRE DE CONTACT</h1>
+            <h2>Vous pouvez me contacter via ce formulaire :</h2>
+            <fieldset>
+                <input placeholder="Votre Prénom :" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Votre Nom :" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Votre adresse email :" type="email" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Numéro de teléphone mobile (optional)" type="tel" tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Numéro de teléphone fixe (optional)" type="url" tabindex="5" required>
+            </fieldset>
+            <fieldset>
+                <select name="sujets" id="listesujets" required="">
+                    <option value="" selected="selected" disabled="" hidden="">Selectionnez...</option>
+                    <option value="proposition de stage">Proposition de stage</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="cafe">Café</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Taper votre message ici...." tabindex="6" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Envoyer</button>
+            </fieldset>
+        </form>
+    </main>
+  
+    <footer>
+        /********************************
+        <br/> ** by me for school project **
+        <br/> /********************************/
+    </footer>
+</body>
+
+</html>
